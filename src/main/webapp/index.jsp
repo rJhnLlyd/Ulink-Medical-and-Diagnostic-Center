@@ -1,0 +1,598 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="css/image/logo.png">
+    <title>Ulink Medical and Diagnostic Center</title>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body onload="startTime()">
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"><img src="css/image/logo.png" alt=""></a><a href="#" class="name">Ulink Medical and Diagnostic Center</a>
+    
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#services">services</a>
+        <a href="#about">about</a>
+        <a href="#book">Book Appointment</a>
+        <a href="#checkappointment">Check Appointment</a>
+        <!--  
+        <a href="#doctors">doctors</a>
+        -->
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+    <%@include file="time.jsp" %>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+    
+    
+</header>
+
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="image">
+        <img src="css/image/home-img.svg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>stay safe, stay healthy</h3>
+        <p></p>
+        <a href="#footer" class="btn"> contact us <span class="fas fa-chevron-right"></span> </a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- icons section starts  
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-user-md"></i>
+        <h3>140+</h3>
+        <p>doctors at work</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <h3>1040+</h3>
+        <p>satisfied patients</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-procedures"></i>
+        <h3>500+</h3>
+        <p>bed facility</p>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-hospital"></i>
+        <h3>80+</h3>
+        <p>available hospitals</p>
+    </div>
+
+</section>
+-->
+
+<!-- icons section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-notes-medical"></i>
+            <h3>Blood Chemistry Packages</h3>
+            <p>Lipid Profile: Total Cholesterol, Triglycerides, HDL/LDL Chemistry 5:</p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-ambulance"></i>
+            <h3>Ultrasound</h3>
+            <p>Pelvic ultrasound, Transviginal Ultrasound, Whole Abdomen</p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-user-md"></i>
+            <h3>Tumor Markers</h3>
+            <p>Alpha Feto Protein (AFP) CEA B-HCG CA-125 (OVARY) CA- 15-3 (BREAST)</p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-pills"></i>
+            <h3>Prenatal Package</h3>
+            <p>CBC,UA, Blood Typing, HBSAG, VDRL/RPR</p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-procedures"></i>
+            <h3>Buntis Package</h3>
+            <p>CBC, UA, Blood Typing, HBSAG, VDRL/RPR, Pelvic Ultrasound</p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Pre-employment Package</h3>
+            <p>Basic 3: Urinalysis, Fecalysis, Chest PA Basic 4: CBC, Urinalysis, Chest PA,</p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>X-Ray</h3>
+            <p>Chest PA/ Chest AP, Chest Lateral, Chest PA/ LAT Adult, Chest AP/LAT,</p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Drug Test</h3>
+            <p></p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>ECG</h3>
+            <p></p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>UA</h3>
+            <p></p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>CBC</h3>
+            <p></p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Covid Test (Saliva)</h3>
+            <p></p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Covid Test (Rapid Test)</h3>
+            <p></p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Covid Test (ANTIGEN)</h3>
+            <p></p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Covid Test (RT-PCR)</h3>
+            <p></p>
+            <a href="#book" class="btn"> Book Appointment <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="css/image/about-img.svg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>ULINK MEDICAL AND DIAGNOSTIC CENTER - CALAMBA BRANCH</h3>
+            <p>an organized, registered and licensed clinic and diagnostic center</p>
+            <p>located at PUROK 4 JULITA BLDG. NATIONAL HIGHWAY BRGY. 1 CALAMBA CITY LAGUNA.</p>
+            <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- doctors section starts for future purposes 
+
+<section class="doctors" id="doctors">
+
+    <h1 class="heading"> our <span>doctors</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/" alt="">
+            <h3>john deo</h3>
+            <span>expert doctor</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/" alt="">
+            <h3>john deo</h3>
+            <span>expert doctor</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/" alt="">
+            <h3>john deo</h3>
+            <span>expert doctor</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/" alt="">
+            <h3>john deo</h3>
+            <span>expert doctor</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/" alt="">
+            <h3>john deo</h3>
+            <span>expert doctor</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/" alt="">
+            <h3>john deo</h3>
+            <span>expert doctor</span>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+-->
+
+<!-- doctors section ends -->
+
+<!-- booking section starts   -->
+
+<section class="book" id="book">
+
+    <h1 class="heading"> <span>Schedule</span> now </h1>    
+
+    <div class="row">
+
+        <div class="image">
+            <img src="css/image/book-img.svg" alt="">
+        </div>
+
+        <form action="AppointmentAndFind" method="POST" >
+            <h3>book appointment</h3>
+            <input type="text" placeholder="First Name" class="box" name="fname" id="fname" required>
+            <input type="text" placeholder="Last Name" class="box" name="lname" id="lname" required>
+            <input type="text" placeholder="M.I." class="box" name="mi" id="mi" maxlength="2" required>
+            <input type="text" placeholder="Enter Age" class="box" name="age" id="age" maxlength="3" required>
+            
+            <select id="" name="gender" class="box" required>
+            	<option value=""disabled selected>Choose Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>	
+            </select>	
+            	
+            <input type="number" pattern=".{10}" placeholder="Mobile number"  class="box" name="mobile" id="mobile" min="0"  maxlength="11" required>
+            <input type="email" placeholder="Email" class="box" name="email" id="email" maxlength="30" required>
+            <select id="test" name="test" class="box" required>
+            	<option value=""disabled selected>Choose your Test</option>
+                <option value="Blood Chemistry">Blood Chemistry</option>
+                <option value="Ultrasound">Ultrasound</option>
+                <option value="Tumor Markers">Tumor Markers</option>
+                <option value="Prenatal Package">Prenatal Package</option>
+                <option value="Buntis Package">Buntis Package</option>
+                <option value="Pre-employment Package">Pre-employment Package</option>
+                <option value="X-Ray">X-Ray</option>
+                <option value="Drug Test">Drug Test</option>
+                <option value="ECG">ECG</option>
+                <option value="UA">UA</option>
+                <option value="CBC">CBC</option>
+                <option value="Covid Test (Saliva)">Covid Test (Saliva)</option>
+                <option value="Covid Test (Rapid Test)">Covid Test (Rapid Test)</option>
+                <option value="Covid Test (ANTIGEN)">Covid Test (ANTIGEN)</option>
+                <option value="Covid Test (RT-PCR)">Covid Test (RT-PCR)</option>
+            </select>
+            <label>Select Date of Appointment</label>
+            <input type="date" class="box" name="date" id="date" value="" required>
+            <label>Select Time</label>
+            <input type="time" class="box" name="time" id="time" min="06:00" max="17:00" value="07:00" required>
+            <input type="text" placeholder="PWD ID# / SENIOR ID#" class="box" name="psid" id="psid">
+            <button type="submit" value="book now" class="btn" onclick="myFunction()">Submit</button>
+            <p id="demo"></p>
+        </form>
+
+    </div>
+
+</section>
+
+<!-- booking section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+    
+    <h1 class="heading">FEEDBACK / <span>reviews</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="css/image/review_alexa.jpg" alt="">
+            <h3>Alexa Yancy</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="text"><br> Results were released faster than other laboratories I went before. Very accommodating and the place is comfortable. Definitely will recommend to others!</p>
+        </div>
+
+        <div class="box">
+            <img src="css/image/review_sherly.jpg" alt="">
+            <h3>Sheryl Almeda</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="text"><br> Super Highly Recommended! Very punctual, mababait ang staff and very professional din. 
+                They're also fast on the results.</p>
+        </div>
+
+        <div class="box">
+            <img src="css/image/review_krizla.jpg" alt="">
+            <h3>Krizia Mariz</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="text"><br>Super bait ng mga staffs at super bilis ng results. Highly recommended talaga.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="css/image/buntis-package.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icon">
+                    <a href="#"> <i class="fas fa-calendar"></i> July 4, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>BUNTIS PACKAGE for only 825.00!</h3>
+                <p>Sa Ulink Diagnostic Center - Calamba Branch! siguradong malusog at ligtas ang iyong pagbubuntis sa halagang abot kaya!<br>
+
+                    -CBC<br>
+                    -Urinalysis<br>
+                    -Blood Typing<br>
+                    -HbsAg<br>
+                    -VDRL/RPR<br>
+                    
+                    *Add ons<br>
+                    -Transviginal Ultrasound 700.00<br>
+                    -Pelvic Ultrasound 500.00<br>
+                    -OGTT 75g 600<br>
+                    -HIV Test 1,000.00<br>
+                    
+                    Ulink cares to all soon Moms!</p>
+                <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="css/image/student-package.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="icon">
+                    <a href="#"> <i class="fas fa-calendar"></i> June 18, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>Student Package for 500 only</h3>
+                <p>Package includes: Chest X-ray, Drug Test and Blood Typing.<br>
+
+                    Come and visit us! See you!<br>
+                    
+                    Ulink: Your link to health and wellness</p>
+                <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="css/image/caritas-health.png" alt="">
+            </div>
+            <div class="content">
+                <div class="icon">
+                    <a href="#"> <i class="fas fa-calendar"></i> June 17, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+                <h3>Caritas Health Shield HMO card holder</h3>
+                <p>can now be accommodated at Ulink Diagnostic Center - Calamba Branch! <br>
+                See you!<br>
+
+                    Ulink: Your link to health and wellness </p>
+                <a href="#" class="btn"> learn more <span class="fas fa-chevron-right"></span> </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="checkappointment" id="checkappointment">
+<h1 class="heading"> Check <span>Appointment</span> </h1>
+		<div class="box-container">
+			<form action="AppointmentCheck" method="GET" class="search">
+        		<input name="search" class="bar" type="search" placeholder="Full Name" aria-label="Search">
+       		<button class="btn" type="submit">Search</button>
+      		</form>
+       </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-chevron-right"></i> home </a>
+            <a href="#services"> <i class="fas fa-chevron-right"></i> services </a>
+            <a href="#about"> <i class="fas fa-chevron-right"></i> about </a>
+            <!-- 
+            <a href="#"> <i class="fas fa-chevron-right"></i> doctors </a>
+            -->
+            <a href="#book"> <i class="fas fa-chevron-right"></i> book appointment </a>
+            <a href="#checkappointment"> <i class="fas fa-chevron-right"></i> Check appointment </a>
+            <a href="#review"> <i class="fas fa-chevron-right"></i> review </a>
+            <a href="#blogs"> <i class="fas fa-chevron-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>our services</h3>
+            <a href="#book"> <i class="fas fa-chevron-right"></i> Blood Chemistry Packages </a>
+            <a href="#book"> <i class="fas fa-chevron-right"></i> Ultrasound </a>
+            <a href="#book"> <i class="fas fa-chevron-right"></i> Tumor Markers </a>
+            <a href="#book"> <i class="fas fa-chevron-right"></i> Prenatal Package </a>
+            <a href="#book"> <i class="fas fa-chevron-right"></i> Buntis Package </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> 0917 108 1714</a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtVbFtKvPBHWXsdMdWkBmPldXJprxpnMzVbdsVVzWSSDHDlSLgGgNWfgSwNHzqFqMtZLwmNB"> <i class="fas fa-envelope"></i> ulink.mdccalamba@gmail.com </a>
+            <!--
+            <a href="#"> <i class="fas fa-phone"></i> 09 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> @gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> map </a>
+            -->
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/ulinkmdc.calamba/"> <i class="fab fa-facebook-f"></i> facebook </a>
+           <!-- <a href="#"> <i class="fab fa-twitter"></i> twitter </a> 
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+           -->
+        </div>
+
+    </div>
+
+    <div class="credit">  <span>2020-2022</span> | all rights reserved </div>
+    </section>
+
+
+
+<!-- footer section ends -->
+
+
+<!-- custom js file link  -->
+<script src="script/script.js"></script>
+
+</body>
+</html>
