@@ -1,1 +1,1 @@
-Ulink Medical and Diagsnostic Center Hotdog
+Ulink Medical and Diagsnostic Center
