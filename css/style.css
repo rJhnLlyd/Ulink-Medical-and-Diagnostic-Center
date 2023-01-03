@@ -548,7 +548,7 @@ label{
 
 
 /* media queries  */
-@media (max-width:991px){
+@media (max-width:860px){
 
     html{
         font-size: 55%;
