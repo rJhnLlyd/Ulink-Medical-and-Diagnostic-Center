@@ -1,16 +1,3 @@
-/**
- * 
- */
- 
- function myFunction() {
-  var txt;
-  if (confirm("Check your Appointment")) {
-    txt = "You pressed OK!";
-  } else {
-    txt = "You pressed Cancel!";
-  }
-  document.getElementById("demo").innerHTML = txt;
-}
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.navbar');
 
