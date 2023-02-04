@@ -86,6 +86,11 @@
 }
 </style>
 <script>
+	$(document).ready(function() {
+  $("input[type='date']").click(function(event) {
+    event.preventDefault();
+  });
+});
 	$(function() {
 						$("#datepicker")
 								.datepicker(
