@@ -88,15 +88,6 @@
 <script>
 	$(function() {
 		var appointmentData;
-
-		$
-				.ajax({
-					url : "GetAppointmentDatesServlet",
-					type : "GET",
-					dataType : "json",
-					success : function(data) {
-						appointmentData = data;
-
 						$("#datepicker")
 								.datepicker(
 										{
@@ -126,9 +117,7 @@
 																	+ appointmentCount ];
 												}
 											}
-										});
-					}
-				});
+										});	
 	});
 </script>
 
