@@ -96,26 +96,7 @@
 											altFormat : "DD, d MM, yy",
 											defaultDate : new Date(),
 											numberOfMonths : 1,
-											beforeShowDay : function(date) {
-												var formattedDate = $.datepicker
-														.formatDate('yy-mm-dd',
-																date);
-												var appointmentCount = appointmentData[formattedDate];
-
-												if (appointmentCount >= 5) {
-													return [
-															false,
-															"ui-state-red",
-															"Appointments: "
-																	+ appointmentCount ];
-												} else {
-													return [
-															true,
-															"ui-state-green",
-															"Appointments: "
-																	+ appointmentCount ];
-												}
-											}
+						
 										});
 	});
 </script>
